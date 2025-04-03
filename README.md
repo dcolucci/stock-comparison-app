@@ -2,6 +2,7 @@
 Sample app built to experiment with CursorAI. Can be used to compare the performance of any stock ticker symbol to the S&P 500 over the last 7 days.
 
 ## Setup
+Recommended NodeJS version: `v23.x`
 
 ### 1. API Key Setup
 The app uses [Alpha Vantage](https://www.alphavantage.co/)'s free stock price API to access stock data.
