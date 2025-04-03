@@ -25,3 +25,25 @@ npm start
 ```
 
 Visit [http://localhost:3000](http://localhost:3000) to access the app.
+
+## Testing
+
+The application includes a comprehensive test suite using Jest. To run the tests:
+
+```sh
+# Run all tests
+npm test
+
+# Run tests in watch mode (tests will re-run when files change)
+npm run test:watch
+
+# Run tests with coverage report
+npm run test:coverage
+```
+
+The test suite includes:
+- API endpoint testing
+- Data structure validation
+- Error handling
+- Percentage change calculations
+- Mocked external API calls
